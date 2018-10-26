@@ -20,7 +20,7 @@
         </div>
         <day-score
           v-if="item.open"
-          @onUpdateScore="onUpdateScore"
+          v-on:onUpdateScore="onUpdateScore"
           :item="item"
         >
         </day-score>
